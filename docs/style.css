@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 50px;
+}
+
+tr {
+	border-bottom: 1px solid grey;
+	height: 50px;
+}
+
+td {
+	padding: 0 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 215px;
+}
+
+.notestyle {
+	max-width: 100px;
+	text-align: center;
+}
+
+.textblock {
+	margin: 10px;
+	resize: none;
+}
+
+.btn {
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	background-color: #6a0dad;
+	color: #ffffff;
+	border-radius: 5px;
+	border-color: #6a0dad;
+}
+
+.btn:active {
+	border-style: solid;
+}
+
+.fullblock {
+	position: absolute;
+	top: calc(50% - 150px);
+	left: calc(50% - 100px);
+	width: 200px;
+	max-height: 300px;
+	z-index: 2;
+	background-color: #ededed;
+	text-align: center;
+}
+
+.iconclose {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 20px;
+	height: 20px;
+	background-image: url("./img/icon__cross.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.headblock {
+	font-size: 15px;
+	font-weight: 700;
+	color: #6a0dad;
+	text-align: center;
+}
+
+.add-img {
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+}
+
+.img-add {
+	background-image: url("./img/icon__add.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px 30px;
+}
